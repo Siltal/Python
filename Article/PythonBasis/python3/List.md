@@ -196,7 +196,7 @@ print(name)
 |list.extend(seq)|在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）|
 |list.index(obj)|从列表中找出某个值第一个匹配项的索引位置|
 |list.insert(index, obj)|将对象插入列表|
-|list.pop(obj=list[-1])|移除列表中的一个元素（默认最后一个元素），并且返回该元素的值|
+|list.pop(index=-1)|移除列表中的一个元素（默认最后一个元素），并且返回该元素的值|
 |list.remove(obj)|移除列表中的一个元素（参数是列表中元素），并且不返回任何值|
 |list.reverse()|反向列表中元素|
 |list.sort([func])|对原列表进行排序|
